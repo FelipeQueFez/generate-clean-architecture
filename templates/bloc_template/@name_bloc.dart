@@ -10,7 +10,7 @@ part '@name_state.dart';
 class @NameBloc extends Bloc<@NameEvent, @NameState> {
   @NameBloc({@required @NameRepository @nameRepository})
       : assert(@nameRepository != null),
-        _@nameRepository = @nameRepository;
+        _@nameRepository = @nameRepository,
         super(@NameState.initial());
 
   final @NameRepository _@nameRepository;
