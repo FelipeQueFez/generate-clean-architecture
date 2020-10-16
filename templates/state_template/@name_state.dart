@@ -1,10 +1,17 @@
 part of '@name_bloc.dart';
 
-abstract class @NameState extends Equatable {
-  const @NameState();
-}
+class @NameState extends DefaultState {
 
-class @NameInitial extends @NameState {
+  @NameState();
+
+  factory @NameState.initial() {
+    return @NameState();
+  }
+
+  @NameState copyWith() {
+    return @NameState();
+  }
+
   @override
-  List<Object> get props => <Object>[];
+  List<Object> get props => [];
 }

@@ -1,4 +1,3 @@
-import 'package:@project/core/network/hasura_wrapper.dart';
 import 'package:flutter/material.dart';
 
 abstract class @NameRemoteDataSource {
@@ -6,7 +5,5 @@ abstract class @NameRemoteDataSource {
 }
 
 class @NameRemoteDataSourceImpl implements @NameRemoteDataSource {
-  @NameRemoteDataSourceImpl({@required this.client});
-
-  final HasuraWrapper client;
+  @NameRemoteDataSourceImpl();
 }

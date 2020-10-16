@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:equatable/equatable.dart';
 import 'package:bloc/bloc.dart';
 import 'package:@project/features/@name/domain/repositories/@name_repository.dart';
+import 'package:@project/views/shared/blocs/default_state.dart';
 
 part '@name_event.dart';
 part '@name_state.dart';
