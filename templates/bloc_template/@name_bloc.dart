@@ -11,11 +11,9 @@ class @NameBloc extends Bloc<@NameEvent, @NameState> {
   @NameBloc({@required @NameRepository @nameRepository})
       : assert(@nameRepository != null),
         _@nameRepository = @nameRepository;
+        super(@NameState.initial());
 
   final @NameRepository _@nameRepository;
-
-  @override
-  @NameState get initialState => @NameInitial();
 
   @override
   Stream<@NameState> mapEventToState(
