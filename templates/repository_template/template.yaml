@@ -1,0 +1,14 @@
+name: repository
+description: Create a flutter repository.
+to: lib/features/@name/data/repositories
+args:
+  - name
+  - project
+ 
+snippets:
+  - file: '@name_repository_impl.dart'
+    prefix: repository
+    excluded:
+      - 0
+      - 1
+    

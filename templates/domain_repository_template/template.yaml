@@ -1,0 +1,13 @@
+name: domainrepository
+description: Create a flutter domain repository.
+to: lib/features/@name/domain/repositories
+args:
+  - name
+ 
+snippets:
+  - file: '@name_repository.dart'
+    prefix: domainrepository
+    excluded:
+      - 0
+      - 1
+    

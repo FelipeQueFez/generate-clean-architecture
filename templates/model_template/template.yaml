@@ -1,0 +1,6 @@
+name: model
+description: Create a flutter models empty.
+to: lib/features/@name/data/models
+args:
+  - name
+  - project

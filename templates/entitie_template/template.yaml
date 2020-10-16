@@ -1,0 +1,5 @@
+name: entitie
+description: Create a flutter entitie empty.
+to: lib/features/@name/domain/entities
+args:
+  - name

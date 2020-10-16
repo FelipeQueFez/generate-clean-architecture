@@ -1,0 +1,5 @@
+name: usecase
+description: Create a flutter models empty.
+to: lib/features/@name/domain/usecases
+args:
+  - name

@@ -1,0 +1,14 @@
+name: datasource
+description: Create a flutter remote data source.
+to: lib/features/@name/data/datasources
+args:
+  - name
+  - project
+ 
+snippets:
+  - file: '@name_remote_data_source.dart'
+    prefix: datasource
+    excluded:
+      - 0
+      - 1
+    
