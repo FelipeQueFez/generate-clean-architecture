@@ -104,3 +104,7 @@ For use case
 ```yaml
 $ gca usecase --name hello
 ```
+
+# License
+
+[license](https://github.com/FelipeQueFez/generate-clean-architecture/blob/main/LICENSE).
