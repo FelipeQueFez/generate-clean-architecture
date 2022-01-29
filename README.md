@@ -15,7 +15,7 @@ To do this, you must have the Dart SDK [installed and configured](https://dart.d
 See the [guide](https://dart.dev/tools/pub/cmd/pub-global) referring to the installation of packages globally if you have any doubts on how to do it.
 
 ```yaml
-$ pub global activate fast
+flutter pub global activate fast
 ```
 
 ### Configure cache location
@@ -29,7 +29,7 @@ $HOME/.fastcli/bin/
 ### Install this plugin
 
 ```yaml
-$ fast plugin add git https://github.com/FelipeQueFez/generate-clean-architecture.git
+fast plugin add git https://github.com/FelipeQueFez/generate-clean-architecture.git
 ```
 
 ### See what the plugin provides
@@ -40,7 +40,7 @@ Use the "gca" plugin that was installed directly from the repository.
 This command will display the functionalities that the plugin provides.
 
 ```yaml
-$ gca --help
+gca --help
 ```
 
 ### Using the plugin
@@ -48,25 +48,25 @@ $ gca --help
 For bloc
 
 ```yaml
-$ gca bloc --name hello
+gca bloc --name hello
 ```
 
 For datasource
 
 ```yaml
-$ gca datasource --name hello
+gca datasource --name hello
 ```
 
 For domain repository
 
 ```yaml
-$ gca domainrepository --name hello
+gca domainrepository --name hello
 ```
 
 For entitie
 
 ```yaml
-$ gca entitie --name hello
+gca entitie --name hello
 ```
 
 For event
@@ -84,25 +84,25 @@ $ gca model --name hello
 For page
 
 ```yaml
-$ gca page --name hello
+gca page --name hello
 ```
 
 For repository
 
 ```yaml
-$ gca repository --name hello
+gca repository --name hello
 ```
 
 For state
 
 ```yaml
-$ gca state --name hello
+gca state --name hello
 ```
 
 For use case
 
 ```yaml
-$ gca usecase --name hello
+gca usecase --name hello
 ```
 
 # License
