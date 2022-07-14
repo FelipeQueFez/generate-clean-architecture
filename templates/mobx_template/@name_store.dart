@@ -1,4 +1,5 @@
-import 'dart:developer';
+import 'package:mobx/mobx.dart';
+import 'package:@project/src/features/@name/domain/usecases/@name_use_case.dart';
 
 import '@name_state.dart';
 
@@ -10,7 +11,7 @@ abstract class _@NameStoreBase with Store {
   late @NameUseCase useCase;
 
   @observable
-  StateListProfiles state = StateListProfilesInitial();
+  State@Name state = State@NameInitial();
 
   _@NameStoreBase() : useCase = @NameUseCase();
 
