@@ -81,10 +81,10 @@ For model
 $ gca model --name hello
 ```
 
-For page
+For screen
 
 ```yaml
-gca page --name hello
+gca screm --name hello
 ```
 
 For repository

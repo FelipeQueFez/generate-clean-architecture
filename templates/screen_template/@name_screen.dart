@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class @NamePage extends StatefulWidget {
+class @NameScreen extends StatefulWidget {
   @override
-  _@NamePageState createState() => _@NamePageState();
+  _@NameScreenState createState() => _@NameScreenState();
 }
 
-class _@NamePageState extends State<@NamePage> {
+class _@NameScreenState extends State<@NameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

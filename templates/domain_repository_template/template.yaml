@@ -1,6 +1,6 @@
 name: domainrepository
 description: Create a flutter domain repository.
-to: lib/features/@name/domain/repositories
+to: lib/src/features/@name/domain/repositories
 args:
   - name
  

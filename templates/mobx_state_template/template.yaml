@@ -1,0 +1,5 @@
+name: mobxstate
+description: Create a flutter models empty.
+to: lib/src/features/@name/presentation/stores
+args:
+  - name

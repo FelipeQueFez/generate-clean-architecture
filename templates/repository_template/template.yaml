@@ -1,6 +1,6 @@
 name: repository
 description: Create a flutter repository.
-to: lib/features/@name/data/repositories
+to: lib/src/features/@name/data/repositories
 args:
   - name
   - project

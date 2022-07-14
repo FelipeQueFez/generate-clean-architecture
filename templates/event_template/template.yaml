@@ -1,5 +1,5 @@
 name: event
 description: Create a flutter event empty.
-to: lib/features/@name/presentation/bloc
+to: lib/src/features/@name/presentation/bloc
 args:
   - name
