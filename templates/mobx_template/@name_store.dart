@@ -1,5 +1,7 @@
 import 'package:mobx/mobx.dart';
 import 'package:@project/src/features/@name/domain/usecases/@name_use_case.dart';
+import 'package:@project/src/features/@name/data/datasources/@name_remote_data_source.dart';
+import 'package:@project/src/features/@name/data/repositories/@name_repository_impl.dart';
 
 import '@name_state.dart';
 
@@ -13,7 +15,12 @@ abstract class _@NameStoreBase with Store {
   @observable
   State@Name state = State@NameInitial();
 
-  _@NameStoreBase() : useCase = @NameUseCase(@NameRepositoryImpl(remoteDataSource: @NameRemoteDataSourceImpl(),),);
+  _@NameStoreBase()
+      : useCase = @NameUseCase(
+          @NameRepositoryImpl(
+            remoteDataSource: @NameRemoteDataSourceImpl(),
+          ),
+        );  
 
   @action
   setState(State@Name stateInput) {
