@@ -1,9 +1,9 @@
-name: screen
+name: mobxscreen
 description: Create a flutter screen.
 to: lib/src/features/@name/presentation/screens
 args:
   - name
-  - msg
+  - project
  
 snippets:
   - file: '@name_screen.dart'
