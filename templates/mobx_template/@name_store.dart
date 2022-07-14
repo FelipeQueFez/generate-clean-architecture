@@ -24,7 +24,7 @@ abstract class _@NameStoreBase with Store {
   template() async {
     setState(State@NameLoading());
     try {
-      await useCase.template();
+      await useCase.execute();
 
       setState(State@NameSuccess());
     } catch (e) {

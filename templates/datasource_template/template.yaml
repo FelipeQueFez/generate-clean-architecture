@@ -4,6 +4,7 @@ to: lib/src/features/@name/data/datasources
 args:
   - name
   - project
+  - remoteclient
  
 snippets:
   - file: '@name_remote_data_source.dart'

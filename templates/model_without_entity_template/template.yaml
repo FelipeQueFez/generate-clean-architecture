@@ -1,0 +1,6 @@
+name: modelwithoutentity
+description: Create a flutter models empty.
+to: lib/src/features/@name/data/models
+args:
+  - name
+  - project
