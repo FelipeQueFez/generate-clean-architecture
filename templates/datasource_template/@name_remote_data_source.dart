@@ -1,9 +1,13 @@
 abstract class @NameRemoteDataSource {
-  //TODO:implement methods here
+  Future<bool?> template();
 }
 
 class @NameRemoteDataSourceImpl implements @NameRemoteDataSource {
-  @NameRemoteDataSourceImpl(this.remoteClientRepository);
+  @NameRemoteDataSourceImpl();
 
-  final @Remoteclient remoteClientRepository;
+  @override
+  Future<bool?> template() {
+    //@Remoteclient...
+    return Future.value(true);
+  }
 }

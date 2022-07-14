@@ -11,8 +11,8 @@ class @NameRepositoryImpl implements @NameRepository {
     @override
   Future<Either<bool?, Exception>> template() async {
     try {
-      //invoke the datasource here.
-      return Left<bool?, Exception>(true);
+      var _response = await remoteDataSource.template();
+      return Left<bool?, Exception>(_response);
     } on dynamic catch (e) {
       return Right<bool, Exception>(
           (e is Exception) ? e : Exception(e.toString()));

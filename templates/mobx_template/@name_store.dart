@@ -13,7 +13,7 @@ abstract class _@NameStoreBase with Store {
   @observable
   State@Name state = State@NameInitial();
 
-  _@NameStoreBase() : useCase = @NameUseCase();
+  _@NameStoreBase() : useCase = @NameUseCase(@NameRepositoryImpl(remoteDataSource: @NameRemoteDataSourceImpl(),),);
 
   @action
   setState(State@Name stateInput) {
