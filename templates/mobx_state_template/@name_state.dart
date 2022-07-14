@@ -1,5 +1,3 @@
-import 'package:core/core.dart';
-
 abstract class State@Name {}
 
 class State@NameInitial extends State@Name {}

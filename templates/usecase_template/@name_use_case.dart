@@ -6,7 +6,7 @@ class @NameUseCase extends UseCase<bool?> {
   final @NameRepository repository;
 
   @override
-  Future<Either<dynamic, bool?>> execute() async {
+  Future<Either<bool?, dynamic>> execute() async {
     return await repository.template();
   }
 }
