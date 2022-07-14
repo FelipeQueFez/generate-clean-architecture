@@ -11,8 +11,7 @@ class @NameRepositoryImpl implements @NameRepository {
   final @NameRemoteDataSource remoteDataSource;
 
     @override
-  Future<Either<bool?, Exception>> template(
-      String? coupleId, AddTaskCalendar? model) async {
+  Future<Either<bool?, Exception>> template() async {
     try {
       //invoke the datasource here.
       return Left<bool?, Exception>(true);

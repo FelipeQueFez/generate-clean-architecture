@@ -1,7 +1,5 @@
 import 'dart:developer';
 
-import 'package:core/core.dart';
-
 import '@name_state.dart';
 
 part '@name_store.g.dart';
