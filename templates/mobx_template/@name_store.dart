@@ -15,12 +15,7 @@ abstract class _@NameStoreBase with Store {
   @observable
   State@Name state = State@NameInitial();
 
-  _@NameStoreBase()
-      : useCase = @NameUseCase(
-          @NameRepositoryImpl(
-            remoteDataSource: @NameRemoteDataSourceImpl(),
-          ),
-        );  
+  _@NameStoreBase() : useCase = sl.get<@NameUseCase>();
 
   @action
   setState(State@Name stateInput) {
