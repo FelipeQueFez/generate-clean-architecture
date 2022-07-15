@@ -1,0 +1,14 @@
+name: servicelocator
+description: Create a flutter screen.
+to: lib/src/features/@name
+args:
+  - name
+  - project
+ 
+snippets:
+  - file: '@name_service_locator.dart'
+    prefix: servicelocator
+    excluded:
+      - 0
+      - 1
+    
