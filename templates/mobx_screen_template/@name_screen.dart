@@ -3,7 +3,7 @@ import 'package:@project/src/features/@name/presentation/stores/@name_state.dart
 import 'package:@project/src/features/@name/presentation/stores/@name_store.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-class HelloScreen extends StatefulWidget {
+class @NameScreen extends StatefulWidget {
   @override
   _HelloScreenState createState() => _HelloScreenState();
 }
