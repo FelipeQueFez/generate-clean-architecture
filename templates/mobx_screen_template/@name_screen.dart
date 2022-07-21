@@ -5,10 +5,10 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 
 class @NameScreen extends StatefulWidget {
   @override
-  _HelloScreenState createState() => _HelloScreenState();
+  _@NameScreenState createState() => _@NameScreenState();
 }
 
-class _HelloScreenState extends State<HelloScreen> {
+class _@NameScreenState extends State<@NameScreen> {
   late @NameStore controller;
 
   @override
