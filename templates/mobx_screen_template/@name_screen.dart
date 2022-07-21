@@ -15,7 +15,7 @@ class _@NameScreenState extends State<@NameScreen> {
   void initState() {
     super.initState();
 
-    controller = @NameStore();
+    controller = sl<@NameStore>();
     controller.template();
   }
 
