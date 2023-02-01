@@ -1,0 +1,6 @@
+name: cubit
+description: Create a flutter cubit empty.
+to: lib/src/features/@name/presentation/cubit
+args:
+  - name
+  - project
