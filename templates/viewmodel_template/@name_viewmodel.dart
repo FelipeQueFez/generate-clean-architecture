@@ -1,0 +1,3 @@
+class @NameViewModel {
+  @NameViewModel();
+}

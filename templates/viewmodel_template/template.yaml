@@ -1,0 +1,6 @@
+name: viewmodel
+description: Create a flutter viewmodel empty.
+to: lib/src/features/@name/domain/viewmodels
+args:
+  - name
+  - project
