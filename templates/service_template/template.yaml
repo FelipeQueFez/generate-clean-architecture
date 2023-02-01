@@ -1,0 +1,6 @@
+name: services
+description: Create a flutter services empty.
+to: lib/src/features/@name/domain/services
+args:
+  - name
+  - project
