@@ -1,5 +1,6 @@
 name: state
 description: Create a flutter state empty.
-to: lib/src/features/@name/presentation/bloc
+to: lib/src/features/@name/presentation/@folder
 args:
   - name
+  - folder
