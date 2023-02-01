@@ -1,0 +1,6 @@
+name: databinding
+description: Create a flutter databinding empty.
+to: lib/src/features/@name/presentation/@folder
+args:
+  - name
+  - folder

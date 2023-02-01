@@ -1,51 +1,27 @@
-class @NameState extends DefaultState {
-
+@immutable
+class @NameState extends BaseState {
+  final @NameDatabinding databinding;
   @NameState({
-    bool isLoading,
-    bool isEmpty,
-    bool isError,
-    bool isSuccess,
-    String errorMessage,    
-  }) : super(
-          isLoading: isLoading,
-          isSuccess: isSuccess,
-          isEmpty: isEmpty,
-          isError: isError,
-          errorMessage: errorMessage,
-        );
+    required BaseLoadingState loading,
+    required String? errorMessage,
+    required this.databinding,
+  }) : super(loading: loading, errorMessage: errorMessage);
 
   factory @NameState.initial() {
     return @NameState(
-      isSuccess: false,
-      isEmpty: false,
-      isError: false,
-      isLoading: false,
-      errorMessage: null,
-    );
+        errorMessage: null,
+        loading: BaseLoadingState.initial,
+        databinding: @NameDatabinding.initial());
   }
 
-  @NameState copyWith({
-    bool isLoading,
-    bool isSuccess,
-    bool isEmpty,
-    bool isError,
-    String errorMessage,
-  }) {
+  @NameState copyWith(
+      {BaseLoadingState? loading,
+      String? errorMessage,
+      @NameDatabinding? databinding}) {
     return @NameState(
-      isLoading: isLoading ?? this.isLoading,
-      isSuccess: isSuccess ?? this.isSuccess,
-      isEmpty: isEmpty ?? this.isEmpty,
-      isError: isError ?? this.isError,
       errorMessage: errorMessage ?? this.errorMessage,
+      loading: loading ?? this.loading,
+      databinding: databinding ?? this.databinding,
     );
   }
-
-  @override
-  List<Object> get props => [
-    isLoading,
-    isSuccess,
-    isEmpty,
-    isError,
-    errorMessage,
-  ];
 }
