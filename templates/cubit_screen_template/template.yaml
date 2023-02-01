@@ -1,0 +1,14 @@
+name: cubitscreen
+description: Create a flutter screen.
+to: lib/src/features/@name/presentation/screens
+args:
+  - name
+  - project
+ 
+snippets:
+  - file: '@name_screen.dart'
+    prefix: screen
+    excluded:
+      - 0
+      - 1
+    
