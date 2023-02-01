@@ -1,5 +1,3 @@
-part of '@name_bloc.dart';
-
 class @NameState extends DefaultState {
 
   @NameState({
