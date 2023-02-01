@@ -38,5 +38,8 @@ class @NameServiceLocatorConfig
   }
 
   @override
-  void registerServices(ServiceLocatorWrapper sl) {}
+  void registerServices(ServiceLocatorWrapper sl) {
+    sl.registerLazySingleton<@NameService>(() =>
+        @NameService(sl<@NameRepository>()));
+  }
 }

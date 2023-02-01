@@ -1,7 +1,7 @@
 import 'package:@project/src/features/@name/domain/repositories/@name_repository.dart';
 
 class @NameService {
-  @NameUseCase(this.repository);
+  @NameService(this.repository);
 
   final @NameRepository repository;
 
